@@ -8,3 +8,4 @@
     runtime_lease_in_sec = 0 # extends the runtime lease to 30 days
     storage_lease_in_sec = 0  # extends the storage lease to 7 days
   }
+ }
