@@ -3,41 +3,41 @@
 variable "vcenter_name" {
     type        = string
     default     = "list"
-    description = "vCenter Name"
+    description = "vCenter Name*"
 }
 
 variable "cd_username" {
     type        = string
-    description = "CloudDirector UserName"
+    description = "CloudDirector UserName*"
 }
 variable "cd_password" {
     type        = string
-    description = "CloudDirector Password"
+    description = "CloudDirector Password*"
 }
 
 variable "cd_vdcadres" {
     type        = string
-    description = "CloudDirector Adresi"
+    description = "CloudDirector Adresi*"
 }
 
 variable "org_name" {
     type        = string
     default     = "list"
-    description = "Organizasyon İsmi"
+    description = "Organizasyon İsmi*"
 }
 
 variable "vdc_name" {
     type        = string
     default     = "list"
-    description = "VDC Name"
+    description = "VDC Name*"
 
 }
 
 variable "vapp_name" {
     type        = string
-    description = "vApp Uygulama adını giriniz."
+    description = "vAPP Adı:*"
 }
 variable "vapp_description" {
     type        = string
-    description = "vApp Açıklamasını giriniz."
+    description = "vAPP Açıklaması:"
 }
