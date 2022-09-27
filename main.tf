@@ -9,3 +9,14 @@
     storage_lease_in_sec = 0  # extends the storage lease to 7 days
   }
  }
+
+resource "vcd_vapp_org_network" "vappOrgNet" {
+  org = var.org_name
+  vdc = var.vdc_name
+  vapp_name = var.vapp_name
+
+  # Comment below line to create an isolated vApp network
+  org_network_name = var.org_network_name
+}
+
+
