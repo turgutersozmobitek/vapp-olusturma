@@ -41,3 +41,8 @@ variable "vapp_description" {
     type        = string
     description = "vAPP Açıklaması:"
 }
+
+variable "org_network_name" {
+    type        = string
+    description = "vAPP Network 1:"
+}   
