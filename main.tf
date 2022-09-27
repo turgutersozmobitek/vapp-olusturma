@@ -17,6 +17,7 @@ resource "vcd_vapp_org_network" "vappOrgNet" {
 
   # Comment below line to create an isolated vApp network
   org_network_name = var.org_network_name
+  depends_on      = [vcd_vapp.vapp]
 }
 
 
